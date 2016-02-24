@@ -1,6 +1,6 @@
 .DS_Store
 /repl
-/target
+**/target
 /lib
 /classes
 /checkouts
@@ -16,3 +16,4 @@ pom.xml
 .lein-repl*
 .crossover-cljs
 .repl
+.nrepl-history
