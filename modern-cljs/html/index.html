@@ -13,5 +13,12 @@
     </address>
 
     <script src="main.js"></script>
+
+    <!--
+        The folliwng line avoids an error. Browsers apparently request a "favicon" to use in the browser toolbar. 
+        This line creates a "faux" icon to satisfy this request. See the StackOverflow post:
+        http://stackoverflow.com/questions/1321878/how-to-prevent-favicon-ico-requests
+    -->
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
   </body>
 </html>
